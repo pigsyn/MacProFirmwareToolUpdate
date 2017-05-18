@@ -20,4 +20,4 @@ patch 'Mac Pro 2009-2010 Firmware Tool.app/Contents/Resources/Scripts/Mac Pro 20
 
 # Releases
 You can also download a patched version: https://github.com/pigsyn/MacProFirmwareToolUpdate/releases
-You will need to disable SIP before running this firmware upgrade
+* Disabling SIP is mandatory before running this firmware upgrade if you are running macOS 10.11 (El Capitan) or greater
