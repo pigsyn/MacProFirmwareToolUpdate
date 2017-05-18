@@ -1,18 +1,19 @@
-MacProFirmwareTool
---------------------
+# MacProFirmwareToolUpdate
 Patch for MacEFIRom's Mac Pro 2009-2010 Firmware Tool
 
-Usage
--------
-Download Mac Pro 2009-2010 Firmware Tool.
+# About this patch
+This patch fixes previously broken firmware images downloads from Apple website.
 
-Download https://github.com/msoulard/MacProFirmwareTool/archive/master.zip
+# Usage
 
-Unzip both files.
+* Download MacEFIRom's Mac Pro 2009-2010 Firmware Tool
+* Download MacProFirmwareToolUpdate
+* Unzip both files under Downloads
+* Open /Application/Utilities/Terminal
 
-Open /Application/Utilities/Terminal:
-
-    cd Downloads/
-    patch 'Mac Pro 2009-2010 Firmware Tool.app/Contents/Resources/Scripts/Mac Pro 2009-2010 Firmware Tool.scpt' MacProFirmwareTool-master/2009_2010.patch
+```bash
+cd Downloads/
+patch 'Mac Pro 2009-2010 Firmware Tool.app/Contents/Resources/Scripts/Mac Pro 2009-2010 Firmware Tool.scpt' MacProFirmwareToolUpdate-master/2009_2010.patch
+```
 
  * 2009_2010.patch md5: `674283f3cfaafad236d8f4aedff4a54a`
