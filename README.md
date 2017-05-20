@@ -1,23 +1,20 @@
 # MacProFirmwareToolUpdate
 Patch for MacEFIRom's Mac Pro 2009-2010 Firmware Tool
 
-# About this patch
+## About this patch
 This patch fixes previously broken firmware images downloads from Apple website.
 
-# Usage
+## Requirements
+* EFI GPU
+* OS X 10.7 and greater
+* Starting with OS X 10.11 and greater you will need to disable SIP (System Integrity Proctection)
+  * Reboot your Mac into Recovery Mode by restarting your computer and holding down Command+R until the Apple logo appears on your screen.
+  * Click Utilities > Terminal. 
+  * In the Terminal window, type in `csrutil disable` and press Enter.
+  * Restart your Mac.
+  * To re enable SIP, repeat this procedure and enter `csrutil enable`
 
-* Download MacEFIRom's Mac Pro 2009-2010 Firmware Tool
-* Download MacProFirmwareToolUpdate
-* Unzip both files under Downloads
-* Open /Application/Utilities/Terminal
+## Releases
+Download patched [`Mac Pro 2009-2010 Firmware Tool`][release] version
 
-```bash
-cd Downloads/
-patch 'Mac Pro 2009-2010 Firmware Tool.app/Contents/Resources/Scripts/Mac Pro 2009-2010 Firmware Tool.scpt' MacProFirmwareToolUpdate-master/2009_2010.patch
-```
-
- * 2009_2010.patch md5: `674283f3cfaafad236d8f4aedff4a54a`
-
-# Releases
-You can also download a pre-patched version: https://github.com/pigsyn/MacProFirmwareToolUpdate/releases
-* Disabling SIP is mandatory before running this firmware upgrade if you are running macOS 10.11 (El Capitan) or greater
+[release]: https://github.com/pigsyn/MacProFirmwareToolUpdate/releases/latest
