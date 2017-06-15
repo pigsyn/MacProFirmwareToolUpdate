@@ -2,6 +2,7 @@
 Patch for MacEFIRom's Mac Pro 2009-2010 Firmware Tool
 
 ## About this patch
+* Mac Pro 4,1 (Early 2009) firmware update to 5,1
 This patch fixes previously broken firmware images downloads from Apple website.
 
 ## Requirements
