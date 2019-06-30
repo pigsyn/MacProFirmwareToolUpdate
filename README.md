@@ -8,7 +8,7 @@ This patch fixes previously broken firmware images downloads from Apple website.
 
 ## Requirements
 * EFI GPU
-* OS X 10.7 and greater
+* OS X 10.9 and greater (tls v1.2 support for curl)
 * Starting with OS X 10.11 and greater you will need to disable SIP (System Integrity Proctection)
   * Reboot your Mac into Recovery Mode by restarting your computer and holding down Command+R until the Apple logo appears on your screen.
   * Click Utilities > Terminal. 
