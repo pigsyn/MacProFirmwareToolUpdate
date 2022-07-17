@@ -70,6 +70,7 @@ downgrade () {
   completed
 }
 
+#
 echo "Please choose firmware operation"
 echo "1 - Upgrade to 2010"
 echo "2 - Downgrade to 2009"
