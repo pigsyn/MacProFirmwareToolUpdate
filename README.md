@@ -17,6 +17,10 @@ This patch fixes previously broken firmware images downloads from Apple website.
   * To re enable SIP, repeat this procedure and enter `csrutil enable`
 
 ## Releases
+# New release 2022-07-17: 
+* v1.2 should fix download issue with MP5,1 firmware dmg
+* Providing basic shell script based on original application applescript code
+
 Download patched [`Mac Pro 2009-2010 Firmware Tool`][release] version
 
 [release]: https://github.com/pigsyn/MacProFirmwareToolUpdate/releases/latest
